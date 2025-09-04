@@ -1,23 +1,21 @@
 {
-  "nombre": "programador de empleados de restaurante",
-  "privado": true,
-  "versión": "0.0.0",
-  "tipo": "módulo",
+  "name": "restaurant-employee-scheduler",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
-  "dependencias": {
-    "reaccionar": "^19.1.1",
-    "reacción-dom": "^19.1.1",
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "@google/genai": "^1.17.0"
   },
-  "dependencias de desarrollo": {
-    "@tipos/nodo": "^22.14.0",
-    "mecanografiado": "^5.8.2",
-    "Invitar": "^6.2.0"
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
   }
 }
