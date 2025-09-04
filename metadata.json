@@ -1,0 +1,5 @@
+{
+  "name": "Restaurant Employee Scheduler",
+  "description": "A collaborative planner for organizing restaurant employee shifts. This tool uses AI to generate a balanced weekly schedule based on employee roles and availability, simplifying the complex task of staff management.",
+  "requestFramePermissions": []
+}
